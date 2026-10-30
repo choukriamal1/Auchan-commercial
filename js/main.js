@@ -1,7 +1,7 @@
-// import { getProductJSON,produits } from "./api.js";
+import { getProductJSON,produits } from "./api.js";
 
-// await getProductJSON()
-// produits.forEach(produit=>{
-//      console.log(produit)
-// })
+await getProductJSON()
+produits.forEach(produit=>{
+     console.log(produit)
+})
 
