@@ -1,0 +1,30 @@
+// [
+//     {
+//         "id": 1,
+//         "nom": "Carrot",
+//         "category": "Alimentation",
+//         "prix": 29.99,
+//         "image": "icons/produits/Cherry Salad.jpg"
+//     },
+//     {
+//         "id": 2,
+//         "nom": "Tomate",
+//         "category": "Alimentation",
+//         "prix": 29.99,
+//         "image": "icons/produits/Cherry Salad.jpg"
+//     },
+//     {
+//         "id": 3,
+//         "nom": "Cherry",
+//         "category": "Alimentation",
+//         "prix": 29.99,
+//         "image": "icons/produits/Cherry Salad.jpg"
+//     },
+//     {
+//         "id": 4,
+//         "nom": "Banane",
+//         "category": "Alimentation",
+//         "prix": 29.99,
+//         "image": "icons/produits/Cherry Salad.jpg"
+//     }
+// ]
