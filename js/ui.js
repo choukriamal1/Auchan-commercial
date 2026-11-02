@@ -1,8 +1,8 @@
 import {getProductJSON} from "./api.js"
-
 export function affichageProduit(produits)
 {
      let gridCatalogue=document.getElementById("catalogue");
+     
      gridCatalogue.innerHTML=produits.map(produit=>{
         return `  <article class="flex flex-col overflow-hidden rounded-2xl border border-slate-300 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg active:cursor-grabbing">
                     <div class="relative aspect-4/3 overflow-hidden bg-stone-100">
