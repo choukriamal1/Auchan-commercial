@@ -1,3 +1,9 @@
-function rechercher(produits, texte){
-  return produits.filter(p => p.nom .toLowerCase().includes(texte.toLowerCase()));
-}
+export const recherche=((produits,text)=>{
+  const search=text.toLowerCase().trim();
+  return produits.filter((produit)=>  //filter hiya forEach + push
+  produit.nom.toLowerCase().includes(search));
+});
+
+//products recoit un tableau et il en renvoie un autre 
+
+                                                                                 
