@@ -83,98 +83,98 @@
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "instruments",
         "prix": 29.99,
         "image": "icons/instrument/p-3.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/piano-vintage.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/red_guitar.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/guitar_777.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/guitar_blue.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/guitar_marine.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/guitar_multy.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/red_t.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/red-t2.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/blue_t.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/cd_red.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/cd.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/Gold & Red.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "instrument",
+        "category": "Instruments",
         "prix": 29.99,
         "image": "icons/instrument/guitar-vintaage.jpg"
     },
@@ -191,63 +191,63 @@
     {
         "id": 4,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl-bl.jpg"
     },
     {
         "id": 4,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/orchid_red.jpg"
     },
     {
         "id": 4,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/Orchids_blue.jpg"
     },
     {
         "id": 5,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_w.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_3.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_2.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_1.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/bouquet_coloré.jpg"
     },
     {
         "id": 7,
         "nom": "Banane",
-        "category": "flowers",
+        "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/bouquet_2.jpg"
     },
