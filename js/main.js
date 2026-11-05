@@ -1,34 +1,22 @@
 import { getProductJSON } from "./api.js";
-import{affichageProduit} from "./ui.js";
-import { recherche } from "./products.js";
-<<<<<<< main.js
+import { affichageProduit } from "./ui.js";
+import { recherche, filtrerCategory } from "./products.js";
 
-export const filtrerCategory = (produits, categorie)
-=======
-import {filtrerCategory} from "./products.js";
-
->>>>>>> local
-let produits=[]
-produits=await getProductJSON()
-console.table(produits)
+const produits = await getProductJSON();
+console.table(produits);
 affichageProduit(produits);
 
 const searchInput = document.getElementById("search");
 
-searchInput.addEventListener("input",()=>{
-    affichageProduit(recherche (produits, searchInput.value));
-<<<<<<< main.js
-})
-=======
+searchInput.addEventListener("input", () => {
+    affichageProduit(recherche(produits, searchInput.value));
 });
 
+const boutons = document.querySelectorAll("#filters button");
 
-const bouttons=document.querySelectorAll("#filters button"); 
-bouttons.forEach((boutton) => {
-    boutton.addEventListener("click",() => {
-        const categorie = boutton.textContent.trim();
+boutons.forEach((bouton) => {
+    bouton.addEventListener("click", () => {
+        const categorie = bouton.textContent.trim();
         affichageProduit(filtrerCategory(produits, categorie));
     });
 });
->>>>>>> local
-
