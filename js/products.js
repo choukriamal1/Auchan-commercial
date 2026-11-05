@@ -4,6 +4,17 @@ export const recherche=((produits,text)=>{
   produit.nom.toLowerCase().includes(search));
 });
 
-//products recoit un tableau et il en renvoie un autre 
+//filter : products recoit un tableau et il en renvoie un autre 
+
+export const filtrerCategory = (produits, categorie) => {
+  if (categorie === "Tout"){
+    return produits; 
+  }
+    return produits.filter((produit)=>
+    produit.category.toLowerCase()=== categorie.toLowerCase());
+};
+
+
+
 
                                                                                  
