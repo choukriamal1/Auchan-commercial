@@ -11,7 +11,7 @@ export function affichageProduit(produits)
                     <div class="flex flex-1 flex-col gap-1 p-5">
                         <p class="text-xs font-bold uppercase ">${produit.category}</p>
                         <h3 class="text-lg font-bold">${produit.nom}</h3>
-                        <h3 class="text-lg font-bold">${produit.prix} DH</h3>
+                        <h3 class="text-lg font-bold">${produit.prix}</h3>
                     </div>
                 </article>
                 `
