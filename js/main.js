@@ -2,21 +2,23 @@ import { getProductJSON } from "./api.js";
 import { affichageProduit } from "./ui.js";
 import { affichagePanier } from "./ui.js";
 import { recherche, filtrerCategory } from "./products.js";
-import { afficherPagination } from "./products.js";
-import {resetPage } from "./products.js";
+import { afficherPagination , resetPage,setMode} from "./products.js";
 import { ajouter, panier, totalPanier, nbrArticles } from "./cart.js";
 
 
 const produits = await getProductJSON();
 console.table(produits);
-afficherPagination(produits);
+
+let produitsActuels = produits;
+afficherPagination(produitsActuels);
+
 
 const searchInput = document.getElementById("search");
 
 searchInput.addEventListener("input", () => {
     resetPage();
-    const result = recherche(produits, searchInput.value);
-    affichageProduit(result);
+    produitsActuels = recherche(produits, searchInput.value);
+    afficherPagination(produitsActuels);
 });
 
 const boutons = document.querySelectorAll("#filters button");
@@ -24,8 +26,8 @@ boutons.forEach((bouton) => {
     bouton.addEventListener("click", () => {
         resetPage();
         const categorie = bouton.textContent.trim();
-        const resultat =filtrerCategory(produits, categorie);  //objet selon les categorie des produits
-        afficherPagination(resultat);
+        produitsActuels =filtrerCategory(produits, categorie);  //objet selon les categorie des produits
+        afficherPagination(produitsActuels);
     });
 });
 
@@ -72,3 +74,26 @@ overlay.addEventListener("click", fermer);
 
 
 majPanier();
+
+
+
+
+
+
+const btnGrille=document.getElementById("btn-grille");
+const btnListe=document.getElementById("btn-liste");
+
+
+btnGrille.addEventListener("click", () => {
+    setMode("grille");
+    resetPage();
+    afficherPagination(produitsActuels);
+});
+
+// Au clic sur Liste
+btnListe.addEventListener("click", () => {
+    setMode("liste");
+    resetPage();
+    afficherPagination(produitsActuels);
+});
+

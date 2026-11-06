@@ -21,6 +21,11 @@ export const filtrerCategory = (produits, categorie) => {
 
 export const  itemsPerPage = 6;
 let currentPage = 1;
+let modeActuelle="grille";
+export const setMode=(mode) =>{
+  modeActuelle= mode;
+};
+
 export const  pagination = (produits) => {
   const start = (currentPage - 1) * itemsPerPage;
   return produits.slice(start, start + itemsPerPage);
@@ -32,8 +37,9 @@ export const  total = (produits) => {
 
 export const afficherPagination = (produits) => {
   const paginationEl = document.getElementById("pagination");
+  if (!paginationEl) return;
 
-  affichageProduit(pagination(produits));
+  affichageProduit(pagination(produits), modeActuelle);
     
     paginationEl.innerHTML = "";
   
@@ -43,6 +49,7 @@ export const afficherPagination = (produits) => {
         btn.textContent = i;
         if (i === currentPage){
              btn.disabled = true; 
+             btn.classList.add("bg-[#FF6467]");
             }
         btn.addEventListener('click', () => { 
         currentPage = i; 
