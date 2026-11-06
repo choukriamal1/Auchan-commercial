@@ -9,9 +9,7 @@ export  function getProductJSON() { //exporter les produits depuis data.json
               })
               .catch(error => { //si error
                   console.log("Error:", error);
-              });
-                    
-           
+              });         
 }
 
 
