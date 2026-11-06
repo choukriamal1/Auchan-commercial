@@ -1,193 +1,239 @@
 [
     {
         "id": 1,
-        "nom": "Carrot",
+        "nom": "Grenades Marocaines",
         "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/Cherry Salad.jpg"
+        "prix": "29,90 DH/kg",
+        "image": "icons/fruits/Grenades Marocaines.jpg"
     },
     {
         "id": 2,
-        "nom": "Tomate",
+        "nom": "Cerises Marocaines",
         "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/cherry.jpg"
+        "prix": "69,90 DH/kg",
+        "image": "icons/fruits/Cerises Marocaines.jpg"
     },
     {
         "id": 3,
-        "nom": "Cherry",
+        "nom": "Cerises en barquette",
         "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/fl_10.jpg"
+        "prix": "74,90 DH/500g",
+        "image": "icons/fruits/Cerises en barquette.jpg"
+    },
+    
+    {
+        "id": 4,
+        "nom": "Cerises Douces",
+        "category": "Alimentation",
+        "prix": "64,90 DH/kg",
+        "image": "icons/fruits/Cerises Douces.jpg"
     },
     {
-        "id": 3,
-        "nom": "Cherry",
+        "id": 5,
+        "nom": "Figues Séchées",
         "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/fruit_3.jpg"
+        "prix": "89,90 DH/kg",
+        "image": "icons/fruits/Figues Séchées.jpg"
+    },
+    
+    
+    
+    {
+        "id": 6,
+        "nom": "Figues Fraîches",
+        "category": "Alimentation",
+        "prix": "14,90 DH/kg",
+        "image": "icons/fruits/Figues Fraîches.jpg"
+    },
+
+    
+    {
+        "id": 7,
+        "nom": "Pastèque",
+        "category": "Alimentation",
+        "prix": "5,90 DH/kg",
+        "image": "icons/fruits/Pastèque.jpg"
     },
     {
-        "id": 3,
-        "nom": "Cherry",
+        "id": 8,
+        "nom": "Fraises Marocaines",
         "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/fruit_5.jpg"
+        "prix": "19,90 DH/kg",
+        "image": "icons/fruits/Fraises Marocaines.jpg"
     },
     {
-        "id": 3,
-        "nom": "Cherry",
+        "id": 9,
+        "nom": "Raisins Noirs",
         "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/fruit_6.jpg"
-    },
-
-    {
-        "id": 3,
-        "nom": "Cherry",
-        "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/fruit_9.jpg"
+        "prix": "16,90 DH/kg",
+        "image": "icons/fruits/Raisins Noirs.jpg"
     },
     {
-        "id": 3,
-        "nom": "Cherry",
+        "id": 10,
+        "nom": "Raisins Premium",
         "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/fruit.jpg"
+        "prix": "24,90 DH/kg",
+        "image": "icons/fruits/Raisins Premium.jpg"
+    },
+    
+    {
+        "id": 11,
+        "nom": "Pommes Royal Gala",
+        "category": "Alimentation",
+        "prix": "14,90 DH/kg",
+        "image": "icons/fruits/Pommes Royal Gala.jpg"
+    },
+    
+    {
+        "id": 12,
+        "nom": "Oranges Valencia",
+        "category": "Alimentation",
+        "prix": "7,90 DH/kg",
+        "image": "icons/fruits/Oranges Valencia.jpg"
+    },
+    
+    {
+        "id": 13,
+        "nom": "Myrtilles Sauvages",
+        "category": "Alimentation",
+        "prix": "49,90 DH/250g" ,
+        "image": "icons/fruits/Myrtilles Sauvages.jpg"
+    },
+
+
+
+
+    {
+        "id": 14,
+        "nom": "Piano numérique noir 88 touches",
+        "category": "Instruments",
+        "prix": "3500 DH",
+        "image": "icons/instrument/Piano numérique noir 88 touches.jpg"
     },
     {
-        "id": 3,
-        "nom": "Cherry",
-        "category": "Alimentation",
-        "prix": 29.99,
-        "image": "icons/fruits/Apples.jpg"
+        "id": 15,
+        "nom": "Piano acoustique vintage",
+        "category": "Instruments",
+        "prix": "12000 DH",
+        "image": "icons/instrument/Piano acoustique vintage.jpg"
     },
-
-
-
-
-
-
+    {
+        "id": 16,
+        "nom": "Guitare électrique rouge type Les Paul",
+        "category": "Instruments",
+        "prix": "2900 DH",
+        "image": "icons/instrument/Guitare électrique rouge type Les Paul.jpg"
+    },
+    {
+        "id": 17,
+        "nom": "Guitare électrique rouge moderne",
+        "category": "Instruments",
+        "prix": "2300 DH",
+        "image": "icons/instrument/Guitare électrique rouge moderne.jpg"
+    },
+    {
+        "id": 18,
+        "nom": "Guitare électrique bleue",
+        "category": "Instruments",
+        "prix": "2600 DH",
+        "image": "icons/instrument/Guitare électrique bleue.jpg"
+    },
+    {
+        "id": 19,
+        "nom": "Guitare électrique noire",
+        "category": "Instruments",
+        "prix": "2100 DH",
+        "image": "icons/instrument/Guitare électrique noire.jpg"
+    },
+    {
+        "id": 20,
+        "nom": "Lot de deux guitares électriques",
+        "category": "Instruments",
+        "prix": "4800 DH",
+        "image": "icons/instrument/Lot de deux guitares électriques.jpg"
+    },
+    {
+        "id": 21,
+        "nom": "Batterie acoustique rouge",
+        "category": "Instruments",
+        "prix": "5000 DH",
+        "image": "icons/instrument/Batterie acoustique rouge.jpg"
+    },
+    {
+        "id": 22,
+        "nom": "Batterie acoustique rouge foncé",
+        "category": "Instruments",
+        "prix": "4200",
+        "image": "icons/instrument/Batterie acoustique rouge foncé.jpg"
+    },
+    {
+        "id": 23,
+        "nom": "Batterie électronique bleue",
+        "category": "Instruments",
+        "prix": "4500 DH",
+        "image": "icons/instrument/Batterie électronique bleue.jpg"
+    },
+    {
+        "id": 24,
+        "nom": "Disque vinyle rouge",
+        "category": "Instruments",
+        "prix": "180 DH",
+        "image": "icons/instrument/Disque vinyle rouge.jpg"
+    },
+    {
+        "id": 25,
+        "nom": "Platine vinyle vintage",
+        "category": "Instruments",
+        "prix": "2800 DH",
+        "image": "icons/instrument/Platine vinyle vintage.jpg"
+    },
+    {
+        "id": 26,
+        "nom": "Saxophone alto doré",
+        "category": "Instruments",
+        "prix": "5500 DH",
+        "image": "icons/instrument/Saxophone alto doré.jpg"
+    },
+    {
+        "id": 27,
+        "nom": "Guitare électrique rouge vintage",
+        "category": "Instruments",
+        "prix": "3500 DH",
+        "image": "icons/instrument/Guitare électrique rouge vintage.jpg"
+    },
+    {
+        "id": 28,
+        "nom": "Piano à queue Steinway & Sons, noir laqué",
+        "category": "Instruments",
+        "prix": "800 000 DH",
+        "image": "icons/instrument/piano à queue Steinway & Sons, noir laqué..jpg"
+    },
+    {
+        "id": 29,
+        "nom": "Violon classique noir",
+        "category": "Instruments",
+        "prix": "950 DH",
+        "image": "icons/instrument/piano à queue Steinway & Sons, noir laqué..jpg"
+    },
+    {
+        "id": 30,
+        "nom": "Guitare acoustique classique bleue",
+        "category": "Instruments",
+        "prix": "850 DH",
+        "image": "icons/instrument/Guitare acoustique classique bleue.jpg"
+    },
+    {
+        "id": 31,
+        "nom": "Trompette classique",
+        "category": "Instruments",
+        "prix": "1 200 DH",
+        "image": "icons/instrument/Guitare acoustique classique bleue.jpg"
+    },
 
 
 
     
-    
 
-
-
-
-
-
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/p-3.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/piano-vintage.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/red_guitar.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/guitar_777.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/guitar_blue.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/guitar_marine.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/guitar_multy.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/red_t.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/red-t2.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/blue_t.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/cd_red.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/cd.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/Gold & Red.jpg"
-    },
-    {
-        "id": 7,
-        "nom": "Banane",
-        "category": "Instruments",
-        "prix": 29.99,
-        "image": "icons/instrument/guitar-vintaage.jpg"
-    },
-
-
-
-
-
-
-
-
-
-    
     {
         "id": 4,
         "nom": "Banane",
@@ -245,7 +291,7 @@
         "image": "icons/flowers/bouquet_coloré.jpg"
     },
     {
-        "id": 7,
+        "id": 36,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
@@ -266,28 +312,28 @@
 
 
     {
-        "id": 3,
+        "id": 37,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
         "image": "icons/games/games.jpg"
     },
     {
-        "id": 3,
+        "id": 38,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
         "image": "icons/games/game_2.jpg"
     },
     {
-        "id": 3,
+        "id": 39,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
         "image": "icons/games/game_3.jpg"
     },
     {
-        "id": 3,
+        "id": 40,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
