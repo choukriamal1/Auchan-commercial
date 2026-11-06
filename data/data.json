@@ -232,70 +232,90 @@
 
 
 
-    
-
+        
     {
         "id": 32,
-        "nom": "Banane",
+        "nom": "Bouquet de roses bleues",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "150 DH",
         "image": "icons/flowers/fl-bl.jpg"
     },
     {
         "id": 33,
-        "nom": "Banane",
+        "nom": "Orchidées rouges",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "180 DH",
         "image": "icons/flowers/orchid_red.jpg"
     },
     {
         "id": 34,
-        "nom": "Banane",
+        "nom": "Orchidées bleues",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "170 DH",
         "image": "icons/flowers/Orchids_blue.jpg"
     },
     {
         "id": 35,
-        "nom": "Banane",
+        "nom": "Orchidée blanche",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "130 DH",
         "image": "icons/flowers/fl_w.jpg"
     },
     {
         "id": 36,
-        "nom": "Banane",
+        "nom": "Bouquet de roses rouges",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "120 DH",
         "image": "icons/flowers/fl_3.jpg"
     },
     {
-        "id": 38,
-        "nom": "Banane",
+        "id": 37,
+        "nom": "Bouquet de lys bleu foncé",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "160 DH",
+        "image": "icons/flowers/téléchargement (2).jpg"
+    },
+    {
+        "id": 38,
+        "nom": "Arums bordeaux",
+        "category": "Flowers",
+        "prix": "140 DH",
         "image": "icons/flowers/fl_2.jpg"
     },
     {
         "id": 39,
-        "nom": "Banane",
+        "nom": "Orchidées rouges en pot",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "190 DH",
         "image": "icons/flowers/fl_1.jpg"
     },
     {
         "id": 40,
-        "nom": "Banane",
+        "nom": "Bouquet floral coloré",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "200 DH",
         "image": "icons/flowers/bouquet_coloré.jpg"
     },
     {
         "id": 41,
-        "nom": "Banane",
+        "nom": "Bouquet de fleurs décoratif",
         "category": "Flowers",
-        "prix": 29.99,
+        "prix": "250 DH",
         "image": "icons/flowers/bouquet_2.jpg"
+    },
+    {
+        "id": 42,
+        "nom": "Bouquet de fleurs bleu nuit",
+        "category": "Flowers",
+        "prix": "180 DH",
+        "image": "icons/flowers/téléchargement (3).jpg"
+    },
+    {
+        "id": 43,
+        "nom": "Lys bleu décoratif",
+        "category": "Flowers",
+        "prix": "100 DH",
+        "image": "icons/flowers/téléchargement (4).jpg"
     },
 
 
@@ -313,49 +333,49 @@
     "id": 42,
     "nom": "Cible de fléchettes",
     "category": "Games",
-    "prix": 180,
+    "prix": "180 DH",
     "image": "icons/games/gamessss.jpg"
 },
 {
     "id": 43,
     "nom": "Jeu d'échecs rouge",
     "category": "Games",
-    "prix": 40,
+    "prix": "40 DH",
     "image": "icons/games/games.jpg"
 },
 {
     "id": 44,
     "nom": "Boules de billard 8 Ball",
     "category": "Games",
-    "prix": 250,
+    "prix": "250 DH",
     "image": "icons/games/8 ball.jpg"
 },
 {
     "id": 45,
     "nom": "Jeu d'échecs",
     "category": "Games",
-    "prix": 80,
+    "prix": "80 DH",
     "image": "icons/games/game_2.jpg"
 },
 {
     "id": 46,
     "nom": "Jeu de dés et dominos",
     "category": "Games",
-    "prix": 50,
+    "prix": "50 DH",
     "image": "icons/games/game_3.jpg"
 },
 {
     "id": 47,
     "nom": "Jeu de cartes",
     "category": "Games",
-    "prix": 15,
+    "prix": "15 DH",
     "image": "icons/games/game_4.jpg"
 },
 {
     "id": 48,
     "nom": "Puzzle classique",
     "category": "Games",
-    "prix": 70,
+    "prix": "70 DH",
     "image": "icons/games/games.777.jpg"
 }
 

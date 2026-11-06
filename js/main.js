@@ -4,10 +4,11 @@ import { affichagePanier } from "./ui.js";
 import { recherche, filtrerCategory } from "./products.js";
 import { afficherPagination , resetPage,setMode} from "./products.js";
 import { ajouter, panier, totalPanier, nbrArticles } from "./cart.js";
-
+import { initDragDrop } from "./dragDrop.js";
 
 const produits = await getProductJSON();
 console.table(produits);
+initDragDrop(produits);
 
 let produitsActuels = produits;
 afficherPagination(produitsActuels);

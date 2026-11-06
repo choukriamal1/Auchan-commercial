@@ -12,7 +12,7 @@ export function affichageProduit(produits, mode="grille")
      
      gridCatalogue.innerHTML=produits.map(produit=>{
         if(mode==="liste"){ 
-        return `<article class="flex flex-row items-center justify-between gap-4 overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:shadow-md">
+        return `<article draggable="true" data-id="${produit.id}" class="flex flex-row items-center justify-between gap-4 overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:shadow-md">
                 <div class="flex items-center gap-4 flex-1 min-w-0">
                     <!-- Image compacte avec dimensions fixes (h-28 w-28) -->
                     <div class="relative h-28 w-28 shrink-0 overflow-hidden rounded-xl bg-stone-100">
@@ -31,7 +31,7 @@ export function affichageProduit(produits, mode="grille")
                 </button>
             </article>`;
             } else{
-                 return `  <article class="flex flex-col items-center overflow-hidden rounded-2xl border border-slate-300 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg active:cursor-grabbing">
+                 return `  <article draggable="true" data-id="${produit.id}" class="flex flex-col items-center overflow-hidden rounded-2xl border border-slate-300 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg active:cursor-grabbing">
                     <div class="relative aspect-4/3 overflow-hidden bg-stone-100">
                         <img src="${produit.image}" alt="" class=" w-full h-full object-cover transition duration-300 group-hover:scale-105" >
                     </div>
@@ -70,6 +70,7 @@ export function affichagePanier(panier, total) {
                 <span class="font-semibold text-sm">${sousTotal.toFixed(2)} DH</span>
             </div>
         `;
+    
     }).join("");
 
     const totalElement = document.getElementById("cart-total");
@@ -77,3 +78,8 @@ export function affichagePanier(panier, total) {
         totalElement.textContent = total.toFixed(2) + " DH";
     }
 }
+
+
+
+
+//attribut draggable="true"
