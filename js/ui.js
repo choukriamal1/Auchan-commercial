@@ -12,8 +12,39 @@ export function affichageProduit(produits)
                         <p class="text-xs font-bold uppercase ">${produit.category}</p>
                         <h3 class="text-lg font-bold">${produit.nom}</h3>
                         <h3 class="text-lg font-bold">${produit.prix}</h3>
+                        <button type="button" data-id="${produit.id}" class="btn-ajouter mt-auto w-full pt-3 cursor-pointer rounded-xl bg-[#FF6467] py-2 font-semibold text-white hover:opacity-90">
+                            Ajouter
+                        </button>
                     </div>
                 </article>
                 `
      }).join("")
+}
+
+export function affichagePanier(panier, total) {
+    const conteneurPanier = document.getElementById("cart-items");
+    if (!conteneurPanier) return;
+
+    conteneurPanier.innerHTML = panier.map(item => {
+        const prixNum = typeof item.prix === 'string' 
+            ? parseFloat(item.prix.replace(',', '.').replace(/[^\d.-]/g, '')) 
+            : item.prix;
+
+        const sousTotal = (isNaN(prixNum) ? 0 : prixNum) * item.quantite;
+
+        return `
+            <div class="flex justify-between items-center border-b pb-2">
+                <div>
+                    <h4 class="font-bold text-sm">${item.nom}</h4>
+                    <p class="text-xs text-gray-500">${item.prix} x ${item.quantite}</p>
+                </div>
+                <span class="font-semibold text-sm">${sousTotal.toFixed(2)} DH</span>
+            </div>
+        `;
+    }).join("");
+
+    const totalElement = document.getElementById("cart-total");
+    if (totalElement) {
+        totalElement.textContent = total.toFixed(2) + " DH";
+    }
 }

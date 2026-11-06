@@ -213,7 +213,7 @@
         "nom": "Violon classique noir",
         "category": "Instruments",
         "prix": "950 DH",
-        "image": "icons/instrument/piano à queue Steinway & Sons, noir laqué..jpg"
+        "image": "icons/instrument/Violon classique noir.jpg"
     },
     {
         "id": 30,
@@ -227,7 +227,7 @@
         "nom": "Trompette classique",
         "category": "Instruments",
         "prix": "1 200 DH",
-        "image": "icons/instrument/Guitare acoustique classique bleue.jpg"
+        "image": "icons/instrument/Trompette classique.jpg"
     },
 
 
@@ -235,63 +235,63 @@
     
 
     {
-        "id": 4,
+        "id": 32,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl-bl.jpg"
     },
     {
-        "id": 4,
+        "id": 33,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/orchid_red.jpg"
     },
     {
-        "id": 4,
+        "id": 34,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/Orchids_blue.jpg"
     },
     {
-        "id": 5,
+        "id": 35,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_w.jpg"
     },
     {
-        "id": 7,
+        "id": 36,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_3.jpg"
     },
     {
-        "id": 7,
+        "id": 38,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_2.jpg"
     },
     {
-        "id": 7,
+        "id": 39,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/fl_1.jpg"
     },
     {
-        "id": 7,
+        "id": 40,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
         "image": "icons/flowers/bouquet_coloré.jpg"
     },
     {
-        "id": 36,
+        "id": 41,
         "nom": "Banane",
         "category": "Flowers",
         "prix": 29.99,
@@ -312,28 +312,28 @@
 
 
     {
-        "id": 37,
+        "id": 42,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
         "image": "icons/games/games.jpg"
     },
     {
-        "id": 38,
+        "id": 43,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
         "image": "icons/games/game_2.jpg"
     },
     {
-        "id": 39,
+        "id": 44,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
         "image": "icons/games/game_3.jpg"
     },
     {
-        "id": 40,
+        "id": 45,
         "nom": "Cherry",
         "category": "Games",
         "prix": 29.99,
