@@ -3,11 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Beldi Market</title>
+        <title>Your Collection Market</title>
         <meta name="theme-color" content="#733e0a">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         
         <link rel="icon" type="image/svg+xml" href="icons/favicon .png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <style type="text/tailwindcss">
         
@@ -17,19 +19,37 @@
     </head>
 
     <body class="flex min-h-screen flex-col bg-slate-100 text-slate-800 ">
-        <header class="sticky top-0 z-50 flex items-center justify-between gap-4 border-b border-slate-300 bg-slate-200 px-4 py-3 shadow-md shadow-md">
-                            
-                    <a href="index.html" class="flex min-w-0 items-center ">
-                     <img src="icons/nom+logo.jpg" alt="logo_img" class="h-12 w-auto max-w-full rounded-2xl sm:h-14" >
-                    </a> 
+        <header class="sticky top-0 z-50 flex items-center justify-between gap-4 border-b border-slate-300 bg-slate-200 px-4 py-3 shadow-md">
+            <a href="index.html" class="flex min-w-0 items-center">
+            <img src="icons/nom+logo.jpg" alt="logo_img" class="h-12 w-auto max-w-full rounded-2xl sm:h-14">
+            </a> 
 
-                    <button type="button" id="cart-btn" aria-label="Ouvrir le panier" class="relative cursor-pointer">
-                    <img src="icons/panier.png" class="h-10 w-auto sm:h-12">
-                    <span id="card-count" class=""absolute -top-2 -right-2 flex h-6 min-w-6 items-center justify-center rounded-full bg-coral px-1 text-xs font-bold text-white>0</span>
-                    </button>
-            
+            <button type="button" id="cart-btn" aria-label="Ouvrir le panier" class="relative cursor-pointer">
+            <img src="icons/panier.png" class="h-10 w-auto sm:h-12">
+            <span id="cart-count" class="absolute -top-1 -right-2 flex h-6 min-w-6 items-center justify-center rounded-full bg-[#FF6467] px-1 text-xs font-bold text-white">0</span>
+             </button>
         </header>
+
+
+        <div id="overlay" class ="fixed inset-0 z-[60] hidden bg-black/50 "></div>
+        <aside id="sidebar" class="fixed top-0 right-0 z-[70] flex w-full max-w-sm translate-x-full flex-col bg-white shadow-xl transition-transform duration-300">
+         
+            <div class="flex items-center justify-between border-b border-slate-200 p-4">
+            <h2 class="text-xl font-bold ">Mon panier</h2>
+            <button id="close-cart" type="button" aria-label="Fermer" class=" cursor-pointer rounded-lg bg-navy-900 border border-dashed border-slate-400 p-2 text-white opacity-80 hover:opacity-100 transition">
+                <i class="fa-solid fa-xmark text-[#FF6467]"></i>
+            </button>
+            </div>
+            <div id="cart-items" class="flex-1 space-y-3 overflow-y-auto p-4"></div>
+            
+            <div class="flex items-center justify-between border-t border-slate-300 p-4 text-lg font-bold">
+                <span>Total</span>
+                <span id="cart-total">0 DH</span>
+            </div>
+        </aside>
         
+
+
         <main class="mx-auto w-full max-w-7xl flex-1 space-y-8 p-4 sm:p-8">
                 
             <div class="grid items-center gap-6  bg-[#0d163e] rounded-2xl shadow p-6 md:grid-cols-3 lg:p-8 ">
@@ -41,37 +61,51 @@
                             <p class="text-white/90">Jusquà -30% sur une sélection dessentiels, seulement pour quelques jours.</small>
                     </div>
                     
-                    <img src="icons/teroire (1).png"  class="mx-auto max-h-64 w-auto ">
+                    <img src="icons/teroire (1).png"  class="mx-auto max-h-50 w-auto ">
                 
             </div> 
 
-            <section class="">
-            <div>
+        <section class="">
+            
                 <div class="relative">
                     <i class="fa-solid fa-magnifying-glass absolute top-1/2 left-4 -translate-y-1/2 text-slate-400"></i>
                     <input id="search" type="search" placeholder="Rechercher un produit..."
                            class="pr-4 pl-10 w-full rounded-full border border-slate-300 bg-white py-2 ">
                 </div>
-            </div>
+           
             
-            <div id="filters" class="flex flex-wrap gap-3 mt-4 py-4 ">
-                <button type="button" class="bg-white rounded-4xl text-slate-800 font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Tout</button>
-                <button type="button" class="rounded-4xl text-slate-800 bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Alimentation</button>
-                <button type="button" class="rounded-4xl text-slate-800  bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Instruments</button>
-                <button type="button" class="rounded-4xl text-slate-800  bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Flowers</button>
-                <button type="button" class="rounded-4xl text-slate-800  bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Games</button>
-            </div>
-            </div>
+                <div id="filters" class="flex flex-wrap gap-3 mt-4 py-4 ">
+                    <button type="button" class="bg-white rounded-4xl text-slate-800 font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Tout</button>
+                    <button type="button" class="rounded-4xl text-slate-800 bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Alimentation</button>
+                    <button type="button" class="rounded-4xl text-slate-800  bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Instruments</button>
+                    <button type="button" class="rounded-4xl text-slate-800  bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Flowers</button>
+                    <button type="button" class="rounded-4xl text-slate-800  bg-white font-semibold px-5 py-2 cursor-pointer hover:bg-[#FF6467]">Games</button>
+                </div>
+                  
+                
+                
+                <div class="flex justify-end gap-2 mb-4">
+                    <button id="btn-grille" class="rounded-xl bg-slate-100 px-4 py-2 font-semibold text-slate-800 shadow-sm transition hover:bg-slate-200 cursor-pointer">
+                        <i class="fa-solid fa-table-cells"></i> Grille
+                    </button>
+                    <button id="btn-liste" class="rounded-xl bg-white px-4 py-2 font-semibold text-slate-600 shadow-sm transition hover:bg-slate-100 cursor-pointer">
+                        <i class="fa-solid fa-bars"></i> Liste
+                    </button>
+                </div>
 
-            
+
+            <div class="mb-4">
+                <p class="text-lg  my-4 uppercase text-gray-400 font-sans">Catalogue Produits</p>
+                <h1 class="font-sans font-bold text-2xl text-slate-800 py-2 ">12 produits</h1>
+            </div> 
+
 
             <section id="catalogue" class="grid grid-col-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                <div class="  from-amber-100 ">
-                <p class="text-lg  my-4 uppercase text-gray-400 font-sans  ">Catalogue Produits</p>
-                <h1 class="font-sans font-bold text-2xl text-slate-800 py-2 ">12 produits</h1>
-            </div>
+                
             </section>
-            </section>
+        
+        </section>
+         <div id="pagination" class="flex flex-wrap items-center justify-center gap-2 py-6 "></div>
         </main>
         
         
